@@ -1,0 +1,105 @@
+(ExpressProject "Pod"
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (NoModify)
+    (File ".\pod.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (Board_sim_option "VHDL_flow")
+    (Netlist_TAB "3")
+    (LAYOUT_Netlist_File "POD.MNL")
+    (LAYOUT_PCB_Footprint "{PCB Footprint}")
+    (TRUE)
+    (LAYOUT_Units "0")
+    (TRUE))
+  (Folder "Outputs"
+    (File ".\pod.mnl"
+      (Type "LAYOUT Netlist File")))
+  (Folder "Referenced Projects")
+  (PartMRUSelector
+    (GND
+      (LibraryName "C:\ORCAD\ORCAD_16.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (CON10AP
+      (FullPartName "CON10AP.Normal")
+      (LibraryName "C:\ORCAD\ORCAD_16.2\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (CON2
+      (FullPartName "CON2.Normal")
+      (LibraryName "C:\ORCAD\ORCAD_16.2\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    ("HEADER 3"
+      (FullPartName "HEADER 3.Normal")
+      (LibraryName "C:\ORCAD\ORCAD_16.2\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (1N5819
+      (FullPartName "1N5819.Normal")
+      (LibraryName "C:\ORCAD_DATA\GIULIANO\GIULIANO.OLB")
+      (DeviceIndex "0"))
+    (VCC
+      (LibraryName "C:\ORCAD\ORCAD_16.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    ("CAP POL"
+      (FullPartName "CAP POL.Normal")
+      (LibraryName "C:\ORCAD\ORCAD_16.2\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (CON1
+      (FullPartName "CON1.Normal")
+      (LibraryName "C:\ORCAD_DATA\GIULIANO\GIULIANO.OLB")
+      (DeviceIndex "0"))
+    (LT1117-3.3/DD
+      (FullPartName "LT1117-3.3/DD.Normal")
+      (LibraryName "C:\ORCAD\ORCAD_16.2\TOOLS\CAPTURE\LIBRARY\REGULATOR.OLB")
+      (DeviceIndex "0"))
+    (CC
+      (FullPartName "CC.Normal")
+      (LibraryName "C:\ORCAD_DATA\GIULIANO\GIULIANO.OLB")
+      (DeviceIndex "0"))
+    (VCC_ARROW
+      (LibraryName "C:\ORCAD\ORCAD_16.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (VCC_BAR
+      (LibraryName "C:\ORCAD\ORCAD_16.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (R
+      (FullPartName "R.Normal")
+      (LibraryName "C:\ORCAD_DATA\GIULIANO\GIULIANO.OLB")
+      (DeviceIndex "0"))
+    (BC817-25
+      (FullPartName "BC817-25.Normal")
+      (LibraryName "C:\ORCAD_DATA\GIULIANO\GIULIANO.OLB")
+      (DeviceIndex "0"))
+    (CON25
+      (FullPartName "CON25.Normal")
+      (LibraryName "C:\ORCAD\ORCAD_16.2\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (CON32
+      (FullPartName "CON32.Normal")
+      (LibraryName "C:\ORCAD\ORCAD_16.2\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0")))
+  (LastUsedLibraryBrowseDirectory "C:\OrCAD\OrCAD_16.2\tools\capture\library")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Outputs"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -4 -23 0 200 0 733"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -4 -23 22 1537 22 782")
+        (Scroll "-52 0")
+        (Zoom "105")
+        (Occurrence "/"))
+      (Path "C:\ORCAD\PROGETTI\STM32\POD.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE1")))
+  (MPSSessionName "elio")
+  (ISPCBBASICLICENSE "false"))

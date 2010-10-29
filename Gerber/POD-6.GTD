@@ -1,0 +1,99 @@
+{Program	GerbTool for Layout
+	{Version	8.0}
+	{Created	Sun Nov 22 06:16:02 2009}
+}
+{Environment
+	{FilesPath  C:\ORCAD\PROGETTI\STM32}
+}
+{Layers
+	{Layer  1
+		{File        POD-6.TOP}
+		{LyrName     -}
+		{ApList      }
+		{Visibility  On}
+		{FlashColor  Blue}
+		{DrawColor   Blue}
+		{Type        Top}
+	}
+	{Layer  2
+		{File        POD-6.BOT}
+		{LyrName     -}
+		{ApList      }
+		{Visibility  On}
+		{FlashColor  Red}
+		{DrawColor   Red}
+		{Type        Bottom}
+	}
+	{Layer  3
+		{File        POD-6.SMT}
+		{LyrName     -}
+		{ApList      }
+		{Visibility  On}
+		{FlashColor  col8}
+		{DrawColor   col8}
+		{Type        Other}
+	}
+	{Layer  4
+		{File        POD-6.SMB}
+		{LyrName     -}
+		{ApList      }
+		{Visibility  On}
+		{FlashColor  sienna1}
+		{DrawColor   sienna1}
+		{Type        Other}
+	}
+	{Layer  5
+		{File        POD-6.SST}
+		{LyrName     -}
+		{ApList      }
+		{Visibility  On}
+		{FlashColor  Yellow}
+		{DrawColor   Yellow}
+		{Type        Other}
+	}
+	{Layer  6
+		{File        POD-6.AST}
+		{LyrName     -}
+		{ApList      }
+		{Visibility  On}
+		{FlashColor  Green}
+		{DrawColor   Green}
+		{Type        Other}
+	}
+	{Layer  7
+		{File        POD-6.ASB}
+		{LyrName     -}
+		{ApList      }
+		{Visibility  On}
+		{FlashColor  Cyan}
+		{DrawColor   Cyan}
+		{Type        Other}
+	}
+	{Layer  8
+		{File        POD-6.DRD}
+		{LyrName     -}
+		{ApList      }
+		{Visibility  On}
+		{FlashColor  Red}
+		{DrawColor   Red}
+		{Type        Other}
+	}
+}
+{Format Gerber
+	{Dialect           RS274X}
+	{m.n               3.4}
+	{Mode              Absolute}
+	{ZeroSuppression   Leading}
+	{Terminator        0x2a, 0xD, 0xA}
+	{Metric            No}
+	{Modal             No}
+	{UserData          Yes}
+	{Nets              No}
+	{Gcmds             Yes}
+	{CharSet           ASCII}
+	{Arcs360           No}
+	{ArcsModal         Yes}
+	{HonorCrLf         No}
+	{Comments          Yes}
+	{Flags             0}
+}
